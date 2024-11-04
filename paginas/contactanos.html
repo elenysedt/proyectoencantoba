@@ -4,42 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encanto</title>
+    <title>Contactanos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
+    
 </head>
 
 <body>
+    <div class="grid-container">
+        <header class="header">
+            <img src="../Images/logo.png" alt="logo encanto" />
+            <h1>Encanto</h1>
+        </header>
 
-    <header>
+        <nav class="nav">
+            <ul class="flex-menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="dulces.html">Dulces</a></li>
+                <li><a href="salados.html">Salados</a></li>
+                <li><a href="contactanos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <form action="https://formspree.io/f/mdknrayy" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
 
-        <h1>Encanto</h1>
-        <img src="Images/logo.png" alt="logo encanto" width="300" height="300" />
-
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="Index.html">Inicio</a></li>
-            <li><a href="/paginas/dulces.html">Dulces</a></li>
-            <li><a href="/paginas/salados.html">Salados</a></li>
-            <li><a href="/paginas/contactanos.html">Contactanos</a></li>
-        </ul>
-
-    </nav>
-    <main>
-        <form action="https://formspree.io/f/mdknrayy" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </main>
-
-    <footer>
-
-    </footer>
+        <footer class="footer">
+            <p>© 2024 Encanto. Todos los derechos reservados.</p>
+        </footer>
 </body>
 
 </html>

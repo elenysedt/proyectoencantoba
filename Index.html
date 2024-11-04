@@ -5,37 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encanto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <div class="grid-container">
+        <header class="header">
+            <img src="Images/logo.png" alt="logo encanto" />
+            <h1>Encanto</h1>
+        </header>
 
-    <header>
+        <nav class="nav">
+            <ul class="flex-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paginas/dulces.html">Dulces</a></li>
+                <li><a href="paginas/salados.html">Salados</a></li>
+                <li><a href="paginas/contactanos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <section class="intro-text">
+                <p>Bienvenidos a mi cocina llena de sabor y amor. 
+                    Aquí encontrarás deliciosos tequeños congelados, tortas 3 leches entre otras divinuras que te harán sentir en casa. 
+                    Sígueme para descubrir mis creaciones y vivir momentos de alegría y encanto.</p>
+            </section>
 
-        <h1>Encanto</h1>
-        <img src="Images/logo.png" alt="logo encanto" width="300"
-        height="300"/>
+            <section class="video-section">
+                <video controls autoplay>
+                    <source src="Images/video.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+                <p class="video-description">Descubre la variedad de productos que ofrecemos: desde dulces caseros hasta tequeños congelados. ¡Perfecto para cualquier ocasión!</p>
+            </section>
 
-    </header>
+            <section class="reseñas">
+                <h2>Reseñas de Nuestros Clientes</h2>
+                <div class="card">
+                    <p>"El mejor lugar para disfrutar dulces deliciosos!"</p>
+                    <p>- Juan Perez</p>
+                </div>
+                <div class="card">
+                    <p>"La comida salada es espectacular, volveré pronto."</p>
+                    <p>- María López</p>
+                </div>
+                <div class="card">
+                    <p>"Ambiente acogedor y una gran variedad de productos."</p>
+                    <p>- Carlos García</p>
+                </div>
+            </section>
+        </main>
 
-    <nav>
-        <ul>
-            <li><a href="Index.html">Inicio</a></li>
-            <li><a href="/paginas/dulces.html">Dulces</a></li>
-            <li><a href="/paginas/salados.html">Salados</a></li>
-            <li><a href="/paginas/contactanos.html">Contactanos</a></li>
-        </ul>
-
-    </nav>
-    <main>
-        <video controls autoplay>
-            <source src="Images/video.mp4" type="video/mp4">
-            Tu navegador no soporta la reproducción de video.
-        </video>
-    </main>
-
-    <footer>
-
-    </footer>
+        <footer class="footer">
+            <p>© 2024 Encanto. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <!-- Ícono de Instagram -->
+                <a href="https://www.instagram.com/encanto.ba.ve?igsh=aGRlYnZvMG10NGRo" target="_blank" class="social-link">
+                    <img src="Images/instagram-icon2.png" alt="Instagram Encanto" class="social-icon">
+                </a>
+                <!-- Ícono de WhatsApp -->
+                <a href="https://wa.me/5491173651424" target="_blank" class="social-link">
+                    <img src="Images/whatsapp-icon.png" alt="WhatsApp Encanto" class="social-icon">
+                </a>
+            </div>
+        </footer>
+        
+        
+    </div>
 </body>
 
 </html>
