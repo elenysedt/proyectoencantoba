@@ -1,0 +1,62 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Una columna de 200px y otra que
+ ocupa el espacio restante */
+    grid-template-rows: auto 1fr auto; /* Tres filas, la del medio es
+ flexible */
+  gap: 10px; /* Espacio entre los elementos */
+}
+main {
+    grid-column: 1 / 3; /* El contenido principal ocupa la segunda
+    columna */ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lora', serif;  /* Aplica la fuente 'Lora' a los párrafos dentro de main */
+    
+}
+.productos {
+    display: flex;  /* Activar Flexbox */
+    flex-wrap: wrap;  /* Permitir que los productos se envuelvan */
+    justify-content: space-between; /* Distribuir los productos con
+ espacio entre ellos */
+    padding: 20px; /* Relleno interno */
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+.producto {
+    background-color:rgb(226, 172, 196); /* Fondo rosa */
+    color: black; /* Color del texto */
+    padding: 20px;/* Relleno interno de cada producto */
+    margin: 10px; /* Margen externo de cada producto */
+    flex: 1 1 200px;/* Ajuste flexible: crece, encoge, tamaño
+ base 200px */
+    box-sizing: border-box;/* Incluir relleno y borde en el tamaño
+ total */
+}
+.producto img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Altura fija para mantener las imágenes del mismo tamaño */
+    object-fit: cover; /* Ajusta la imagen para que ocupe el espacio sin distorsionarse */
+    border-radius: 8px; /* Opcional: da bordes redondeados a las imágenes */
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .productos {
+        flex-direction: column; /* Coloca productos en una sola columna */
+        padding: 0;
+    }
+
+    .producto {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
