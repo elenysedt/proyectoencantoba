@@ -5,7 +5,7 @@
       "nombre": "Torta Tres Leches",
       "precio": 2500,
       "descripcion": "Bizcocho esponjoso empapado en una mezcla de tres leches y cubierto con crema batida, con o sin canela.",
-      "imageUrl": "https://github.com/elenysedt/proyectoencantoba/blob/6e4b3d4fe43c02becea1d78652d5df82a1830e90/Images/dulce/tresleche.jpeg",
+      "imageUrl": "../Images/dulce/tresleche.jpeg",
       "categoria": "dulces"
     },
     {
@@ -13,7 +13,7 @@
       "nombre": "Torta de Anana",
       "precio": 2500,
       "descripcion": "Pastel invertido esponjoso el cual al girarlo queda cubierto con rodajas de ananá caramelizadas.",
-      "imageUrl": "https://github.com/elenysedt/proyectoencantoba/blob/6e4b3d4fe43c02becea1d78652d5df82a1830e90/Images/dulce/minianana.jpeg",
+      "imageUrl": "../Images/dulce/minianana.jpeg",
       "categoria": "dulces"
     },
     {
@@ -21,7 +21,7 @@
       "nombre": "Torta 3 Leches XL",
       "precio": 30000,
       "descripcion": "Versión familiar del bizcocho esponjoso empapado en una mezcla de tres leches y cubierto con crema batida, con o sin canela.",
-      "imageUrl": "https://github.com/elenysedt/proyectoencantoba/blob/6e4b3d4fe43c02becea1d78652d5df82a1830e90/Images/dulce/tresleches.jpeg",
+      "imageUrl": "../Images/dulce/tresleches.jpeg",
       "categoria": "dulces"
     },
     {
@@ -29,7 +29,7 @@
       "nombre": "Roll de Canela",
       "precio": 1000,
       "descripcion": "Masa suave enrollada con azúcar y canela, horneada y glaseada para un toque dulce.",
-      "imageUrl": "https://github.com/elenysedt/proyectoencantoba/blob/6e4b3d4fe43c02becea1d78652d5df82a1830e90/Images/dulce/rollcanela.jpeg",
+      "imageUrl": "../Images/dulce/rollcanela.jpeg",
       "categoria": "dulces"
     },
     {
@@ -37,7 +37,7 @@
       "nombre": "Tequeños Congelados",
       "precio": 5000,
       "descripcion": "Deliciosos tequeños venezolanos congelados, listos para freír y disfrutar.",
-      "imageUrl": "https://github.com/elenysedt/proyectoencantoba/blob/6e4b3d4fe43c02becea1d78652d5df82a1830e90/Images/salados/teque%C3%B1os3.jpeg",
+      "imageUrl": "../Images/salados/tequeños3.jpeg",
       "categoria": "salados"
     }
   ]
