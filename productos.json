@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "nombre": "Torta 3 Leches XL",
+      "nombre": "Torta Tres Leches XL",
       "precio": 30000,
       "descripcion": "Versión familiar del bizcocho esponjoso empapado en una mezcla de tres leches y cubierto con crema batida, con o sin canela.",
       "imageUrl": "../Images/dulce/tresleches.jpeg",
