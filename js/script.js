@@ -116,7 +116,6 @@ function actualizarCantidad(productId, nuevaCantidad) {
             productoEnCarrito.cantidad = nuevaCantidad; // Actualiza la cantidad
             localStorage.setItem('carrito', JSON.stringify(carrito)); // Actualiza el localStorage
             actualizarCarrito(); // Actualiza la visualización del carrito
-            // Aquí puedes usar un setTimeout para mostrar un mensaje temporal
             alert(`Cantidad de "${productoEnCarrito.nombre}" actualizada a ${nuevaCantidad}.`);
         }
     }
@@ -170,13 +169,12 @@ function actualizarCarrito() {
     totalCarritoElemento.textContent = totalCarrito.toFixed(2);
 }
 function eliminarDelCarrito(productId) {
-    setTimeout(() => {
-        carrito = carrito.filter(producto => producto.id !== productId);
-        localStorage.setItem('carrito', JSON.stringify(carrito));
-        actualizarCarrito();
-        alert("Producto eliminado del carrito.");
-    }, 0);
+    carrito = carrito.filter(producto => producto.id !== productId);
+    localStorage.setItem('carrito', JSON.stringify(carrito));
+    actualizarCarrito();
+    alert("Producto eliminado del carrito.");
 }
+
 function vaciarCarrito() {
     carrito = [];
     localStorage.setItem('carrito', JSON.stringify(carrito));
