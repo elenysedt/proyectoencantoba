@@ -1,0 +1,5 @@
+# _redirects
+/index.html    /index.html    200
+/dulces.html   /dulces.html   200
+/salados.html  /salados.html  200
+/contactanos.html  /contactanos.html  200
