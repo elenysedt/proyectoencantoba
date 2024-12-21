@@ -161,7 +161,7 @@ function actualizarCarrito() {
         const li = document.createElement('li');
         li.innerHTML = `
         ${producto.nombre} - ${producto.cantidad} unidades - $${(producto.precio * producto.cantidad).toFixed(2)}
-        <img src="../Images/tacho.png" alt="Eliminar" class="icono-eliminar" onclick="eliminarDelCarrito(${producto.id})" style="cursor: pointer; width: 20px; height: 20px; margin-left: 10px;">
+        <img src="images/tacho.png" alt="Eliminar" class="icono-eliminar" onclick="eliminarDelCarrito(${producto.id})" style="cursor: pointer; width: 20px; height: 20px; margin-left: 10px;">
         `;
         listaCarrito.appendChild(li);
     });
