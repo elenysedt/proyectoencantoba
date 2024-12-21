@@ -3,7 +3,7 @@ let productos; // Definir productos en un ámbito global
 let carrito = JSON.parse(localStorage.getItem('carrito')) || []; // Inicializar carrito desde localStorage
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('https://raw.githubusercontent.com/elenysedt/proyectoencantoba/refs/heads/main/productos.json')
+    fetch('https://raw.githubusercontent.com/elenysedt/proyectoencantoba/refs/heads/master/static/js/productos.json')
     //fetch('productos.json')
         .then(response => response.json())
         .then(data => {
