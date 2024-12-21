@@ -1,0 +1,12 @@
+{
+  "name": "encantoba",
+  "version": "1.0.0",
+  "description": "Página web para comprar tequeños y dulces venezolanos en Buenos Aires.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
