@@ -45,7 +45,7 @@ header h2 {
 
 /* Estilos del cuerpo */
 body {
-    background-image: url('images/fondorosaclaro.jpg');
+    background-image: url('../images/fondorosaclaro.jpg');
     background-size: cover;
     background-position: center;
     margin: 20px;
